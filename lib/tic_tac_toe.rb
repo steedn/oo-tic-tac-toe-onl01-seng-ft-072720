@@ -61,8 +61,6 @@ class TicTacToe
     end
   end
   def full?
-    @board.any? do |y|
-      position_taken?(y)
-    end
+    @board.all?{|spot| spot != " "}
   end
 end
