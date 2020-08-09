@@ -67,7 +67,7 @@ class TicTacToe
     if won?
       false
     elsif full?
-      false
+      true
     else
       true
     end
