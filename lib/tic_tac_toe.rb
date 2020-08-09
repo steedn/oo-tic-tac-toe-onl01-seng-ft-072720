@@ -6,5 +6,6 @@ class TicTacToe
   end
 
   def self.play
+  end
 
 end
