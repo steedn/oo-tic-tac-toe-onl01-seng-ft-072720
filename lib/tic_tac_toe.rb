@@ -81,5 +81,7 @@ class TicTacToe
     end
   end
   def play
+    turn until over?
+    puts winner
   end
 end
