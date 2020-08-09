@@ -5,7 +5,7 @@ class TicTacToe
     @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   end
 
-  def self.display_board
+  def display_board
     puts " #{@board[0]} | "
   end
 
