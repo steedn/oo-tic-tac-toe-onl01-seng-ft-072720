@@ -30,8 +30,8 @@ class TicTacToe
     count = 0
     @board.each do |index|
       if index != " "
-        counter += 1
+        count += 1
       end
-    counter
+    count
   end
 end
