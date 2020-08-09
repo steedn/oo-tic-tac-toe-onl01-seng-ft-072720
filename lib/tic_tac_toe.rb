@@ -45,7 +45,7 @@ class TicTacToe
     input = gets.strip
     index = input_to_index(input)
     # binding.pry
-    if valid_move?(index)
+    if valid_move?(index) ==  true
       token = current_player
       move(index, token)
     else
