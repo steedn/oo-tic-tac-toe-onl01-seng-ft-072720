@@ -41,7 +41,7 @@ class TicTacToe
     turn_count.even? ? "X" : "O"
   end
   def turn
-    puts "Please enter a number between (1-9):"
+    puts "Please enter a number between (1-9)"
     input = gets.strip
     index = input_to_index(input)
     # binding.pry
