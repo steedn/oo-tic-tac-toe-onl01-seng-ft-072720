@@ -63,4 +63,6 @@ class TicTacToe
   def full?
     @board.all?{|spot| spot != " "}
   end
+  def draw?
+  end
 end
