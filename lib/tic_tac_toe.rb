@@ -33,6 +33,7 @@ class TicTacToe
         counter +=
       end
       counter
+    end
 
   end
 end
