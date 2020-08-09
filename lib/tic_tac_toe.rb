@@ -32,8 +32,6 @@ class TicTacToe
       if index != " "
         counter +=
       end
-      counter
-    end
-
+    counter
   end
 end
