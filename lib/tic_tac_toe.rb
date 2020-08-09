@@ -68,10 +68,11 @@ class TicTacToe
       false
     elsif !full?
       false
-
     else
       true
     end
-
   end
+  def over?
+  end
+  
 end
