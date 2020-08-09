@@ -64,4 +64,5 @@ class TicTacToe
     @board.any? do |y|
       position_taken?(y)
     end
+  end
 end
