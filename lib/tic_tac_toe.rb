@@ -1,3 +1,5 @@
+require "pry"
+
 class TicTacToe
   WIN_COMBINATIONS = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]]
 
@@ -42,6 +44,7 @@ class TicTacToe
     puts "Please enter a number between (1-9):"
     input = gets.strip
     index = input_to_index(index)
+    binding.pry
     if valid_move?(index)
       token = current_player
       move(index, token)
