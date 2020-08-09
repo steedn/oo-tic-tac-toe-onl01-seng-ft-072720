@@ -19,4 +19,5 @@ class TicTacToe
 
   def move(place, user = "X" )
     @board[place] = user
+  end
 end
