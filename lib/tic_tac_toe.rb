@@ -26,4 +26,6 @@ class TicTacToe
   def valid_move?(index)
     @board[index] == " "
   end
+  def turn_count
+  end
 end
