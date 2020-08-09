@@ -20,4 +20,6 @@ class TicTacToe
   def move(place, user = "X" )
     @board[place] = user
   end
+  def position_taken
+  end
 end
