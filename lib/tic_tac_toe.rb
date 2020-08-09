@@ -39,6 +39,8 @@ class TicTacToe
     turn_count.even? ? "X" : "O"
   end
   def turn
+    puts "Please enter a number between (1-9)"
+    index = gets 
 
   end
 end
